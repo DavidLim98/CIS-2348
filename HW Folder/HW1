@@ -13,3 +13,17 @@ by=int(input('Year: '))
 print("you are ",calculateAge(date(y,m,d),date(by,bm,bd)), "years old.")
 if d==bd:
     print("Happy Birthday!")
+
+
+OUTPUT:
+
+Birthday Calculator
+current Day
+Month: 9
+Day: 16
+Year: 2021
+Birthday
+Month: 10
+Day: 21
+Year: 1998
+you are  22 years old.
