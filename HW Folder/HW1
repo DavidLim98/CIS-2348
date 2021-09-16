@@ -1,1 +1,15 @@
-
+p=1998
+q=10
+r=21
+print("Birthday Calculator")
+print('current Day')
+m=int(input('Month: '))
+d=int(input('Day: '))
+y=int(input('Year: '))
+print('Birthday')
+bm=int(input('Month: '))
+bd=int(input('Day: '))
+by=int(input('Year: '))
+print("you are ",calculateAge(date(y,m,d),date(by,bm,bd)), "years old.")
+if d==bd:
+    print("Happy Birthday!")
