@@ -1,3 +1,5 @@
+# David Lim, 1625277
+
 print('Birthday Calculator\nCurrent day')
 m1 = int(input('Month: '))
 d1 = int(input('Day: '))
