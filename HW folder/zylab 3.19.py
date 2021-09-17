@@ -1,3 +1,5 @@
+# David Lim, 1625277
+
 import math
 wallHeight = float(input("Enter wall height (feet):\n"))
 wallWidth = float(input("Enter wall width (feet):\n"))
