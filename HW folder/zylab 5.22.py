@@ -1,3 +1,5 @@
+# David Lim, 1625277
+
 print("Davy's auto shop services\nOil change -- $35\nTire rotation -- $19\nCar wash -- $7\nCar wax -- $12")
 print('')
 shopService1=input("Select first service:\n")
