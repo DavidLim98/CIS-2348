@@ -1,3 +1,5 @@
+# David Lim, 1625277
+
 user_input = input()
 normal = ""
 reverse = ""
