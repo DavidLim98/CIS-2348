@@ -1,2 +1,2 @@
 # CIS-2348
-Repository for CIS2348 class
+Repository for CIS2348 class HWs
