@@ -1,3 +1,5 @@
+# David Lim, 1625277
+
 word = input()
 password = ''
 
