@@ -31,7 +31,7 @@ while True:
    else:
       information = ["", "", "", 0]
       for i in range(len(data["id"])):
-         if(data["manufacturer"][i] == item and data["type"][i] == types):
+         if(data["manufacturer"][i] == item and data["type"][i] == type):
             if(information[3] < data["price"][i]):
 
                information[0] = data["id"][i]
