@@ -1,3 +1,5 @@
+# David Lim, 1625277
+
 data = {"id" : [1167234, 2390112, 9034210, 3001265, 2347800, 1009453],
 
 "manufacturer":["Apple", "Dell", "Dell", "Samsung", "Apple", "Lenovo"],
