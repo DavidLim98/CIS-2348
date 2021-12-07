@@ -26,7 +26,7 @@ while True:
          type = i
 
    if(item == "" or type == ""):
-      print("No such item in invetory")
+      print("No such item in inventory")
 
    else:
       information = ["", "", "", 0]
