@@ -1,20 +1,36 @@
 # David Lim, 1625277
 
 cups_lemon_juice = float(input('Enter amount of lemon juice (in cups):\n'))
-amount_water = float(input('Enter amount of water (in cups):\n'))
-amount_agave_nectar = float(input('Enter amount of agave nectar (in cups):\n'))
-servings = float(input('How many servings does this make?\n\n'))
-print('Lemonade ingredients - yields', '{:.2f}'.format(servings), 'servings')
-print('{.2f}'.format(cups_lemon_juice), 'cup(s) lemon juice')
-print('{.2f}'.format(amount_water), 'cup(s) water')
-print('{.2f}'.format(amount_agave_nectar), 'cup(s) agave nectar')
+cups_water = float(input('Enter amount of water (in cups):\n'))
+cups_agave_nectar = float(input('Enter amount of agave nectar (in cups):\n'))
+# input the number of servings the recipe yields
+cups_serving = float(input('How many servings does this make?\n'))
 
-servings2 = int(input('How many servings would you like to make?\n\n'))
-print('Lemonade ingredients - yields', '{:.2f}'.format(servings2), 'servings')
-print('{.2f}'.format(cups_lemon_juice * 8), 'cup(s) lemon juice')
-print('{.2f}'.format(amount_water * 8), 'cup(s) water')
-print('{.2f}'.format(amount_agave_nectar * 8), 'cup(s) agave nectar')
-print('Lemonade ingredients - yields', '{:.2f}'.format(servings2), 'servings')
-print('{:.2f}'.format((cups_lemon_juice * 8) / 16), 'gallon(s) lemon juice')
-print('{:.2f}'.format((amount_water * 8) / 16), 'gallon(s) water')
-print('{:.2f}'.format((amount_agave_nectar * 8) / 16), 'gallon(s) agave nectar')
+print('\nLemonade ingredients - yields %.2f servings' %(cups_serving))
+print('%.2f cup(s) lemon juice' %(cups_lemon_juice))
+print('%.2f cup(s) water'%(cups_water))
+print('%.2f cup(s) agave nectar'%(cups_agave_nectar))
+
+cups_serving_needed = float(input('\nHow many servings would you like to make?\n'))
+
+lemon_juice_for_one = cups_lemon_juice/cups_serving
+water_for_one= cups_water/cups_serving
+agave_nectar_for_one = cups_agave_nectar/cups_serving
+
+cups_lemon_juice_needed = lemon_juice_for_one*cups_serving_needed
+cups_water_needed = water_for_one*cups_serving_needed
+cups_agave_nectar_needed = agave_nectar_for_one*cups_serving_needed
+
+print('\nLemonade ingredients - yields %.2f servings' %(cups_serving_needed))
+print('%.2f cup(s) lemon juice' %(cups_lemon_juice_needed))
+print('%.2f cup(s) water'%(cups_water_needed))
+print('%.2f cup(s) agave nectar'%(cups_agave_nectar_needed))
+
+gallons_lemon_juice = cups_lemon_juice_needed/16
+gallons_water = cups_water_needed/16
+gallons_agave_nectar = cups_agave_nectar_needed/16
+
+print('\nLemonade ingredients - yields %.2f servings' %(cups_serving_needed))
+print('%.2f gallon(s) lemon juice' %(gallons_lemon_juice))
+print('%.2f gallon(s) water'%(gallons_water))
+print('%.2f gallon(s) agave nectar'%(gallons_agave_nectar))
